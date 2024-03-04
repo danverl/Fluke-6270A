@@ -3,7 +3,7 @@ The intention for this repo is to be an easy to use IEEE reference guide for use
 All information is from MET/CAL Reference guide Rev 7 and Fluke 6270A Programmers guide June 2015. These documents belong to fluke, and are copyrighted.
 
 Fluke IEEE Commands are constructed with three parts. These are category, command and variables. 
-Each command ios structured like this, with a few exceptions. 
+Each command ios structured like this, with a few exceptions. See Fluke 6270A programmers manual for more detail on these commands and their use 
 CATEgory:COMMand <variables>
 
 - SOURce
