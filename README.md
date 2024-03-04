@@ -41,8 +41,38 @@ CATEgory:COMMand <variables>
       - RUN
       - STOP
 - DISPlay
+-   - BRIGhtness
+    - ENABle
+    - LANGuage
+    - TEXT
 - MEASure
+    - ATMosphere
+    - TEMPerature
+    - [:PRESSURE]:SLEW
 - SENse
+    - ATMosphere
+        - MODule
+    - [PRESSURE]
+      - MODE
+      - MODule
+         - NAME
+         - SERial
+         - UNCertainty
+            - ADD
+            - RELative
+            - THReshold
+            - ZERO
+            - VERSion
+       - RANGE
+         - LOWer
+         - [:UPPer]
+      - REFerence
+         - MEDium
+         - [:HEIGht]
+            - UNCertainty
+      - RESolution
+       - AUTO
+      - UNCertainty
 - STATus
 - SYSTem
 - TEST
